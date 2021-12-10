@@ -1,12 +1,16 @@
+#title {
+    text-align: center;
+}
 
 .color {
+    margin-left: 200px;
     width: 70px;
     height: 70px;
     border: 1px solid black;
 }
 
 #color1 {
-    background-color: blue;
+    background-color:black;
 }
 
 #color2 {
@@ -19,4 +23,16 @@
 
 #color4 {
     background-color: palevioletred;
+}
+
+.pixel {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#pixel-board {
+    width: 350px;
+    margin-left: 500px;
 }
