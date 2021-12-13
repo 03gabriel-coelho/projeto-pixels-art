@@ -64,4 +64,28 @@ function selectedColor4 (){
     }
 }
 color4.addEventListener('click',selectedColor4);
-console.log(color1.classList.length);
+
+let pixel = document.querySelectorAll('.pixel');
+
+function addColor () { 
+    for(let index = 0; index < pixel.length; index += 1){
+    pixel[index].onclick = function() {
+        if(color1.classList.value === 'color selected'){
+    pixel[index].style.backgroundColor = 'black';
+        }
+        else if(color2.classList.value === 'color selected'){
+    pixel[index].style.backgroundColor = 'red';
+        }
+        else if(color3.classList.value === 'color selected'){
+    pixel[index].style.backgroundColor = 'orange';
+        }
+        else if(color4.classList.value === 'color selected'){
+    pixel[index].style.backgroundColor = 'palevioletred';
+        }
+}
+}
+}
+addColor();
+
+
+console.log(color1.classList.value);
