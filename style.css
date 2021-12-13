@@ -40,3 +40,7 @@
 .black {
     background-color: black;
 }
+
+#clear-board {
+    margin-left: 625px;
+}

@@ -87,5 +87,14 @@ function addColor () {
 }
 addColor();
 
+let clear = document.getElementById('clear-board');
 
+function clearColor () {
+    clear.onclick = function() {
+        for(let index = 0; index < pixel.length; index += 1){
+            pixel[index].style.backgroundColor = 'white';
+        }
+    }
+}
+clearColor();
 console.log(color1.classList.value);
