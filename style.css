@@ -2,6 +2,13 @@ html {
     text-align: center;
 }
 
+body {
+    background-image: url(https://1.bp.blogspot.com/-SmzvQg4Z5Qo/XoGL7YSma2I/AAAAAAAAqKM/IfPIsHnvyxwf7OSaYt-cdkvKsJ6ba1PxQCLcBGAsYHQ/s2560/abstract-springs-4k-k6-3840x2160.jpg);
+}
+#title {
+color: white;
+}
+
 .color {
     width: 50px;
     height: 50px;
@@ -16,9 +23,10 @@ html {
     border: black solid 1px;
     margin: 0px;
     margin-bottom: -3.1px;
+    background-color: white;
 }
 
 #pixel-board {
     margin-top: 10px;
-    background-color: white !important;
+    background-color: transparent !important;
 }
